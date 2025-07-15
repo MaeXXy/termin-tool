@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: termin-admin-tool
+    name: termin-tool-komplett
     env: python
     plan: free
     buildCommand: ""
-    startCommand: "python admin.py"
+    startCommand: "python app.py"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11
